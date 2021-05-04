@@ -6,4 +6,6 @@ read -p "enter the input = " c
 
 operation_1=$(( a + b * c ))
 echo $operation_1
+operation_2=$(( a * b + c ))
+echo $operation_2
 
