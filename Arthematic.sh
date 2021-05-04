@@ -10,4 +10,6 @@ operation_2=$(( a * b + c ))
 echo $operation_2
 operation_3=$(( c + a / b ))
 echo $operation_3
+operation_4=$(( a % b + c ))
+echo $operation_4
 
